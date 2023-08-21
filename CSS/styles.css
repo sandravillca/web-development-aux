@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.fecha{
+    padding: 20px 80px 10px 80px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #252D39;
+    width: 100%;
+    height: 35px;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.option{
+    padding: 10px;
+    color: white;
+}
+.selected{
+    background-color: #1A1F28;
+    border-bottom: 2px solid #CDB184;
+}
+.option:hover{
+    background-color: #1A1F28;
+    border-bottom: 2px solid #CDB184;
+    cursor: pointer;
+}
+.menu_icon{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 25px;
+    height: 100%;
+    justify-content: space-between;
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.logo{
+    background-color: #FFA800;
+    width: 100%;
+    padding: 10px 80px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.searchbar{
+    display: flex;
+}
+.bar{
+    width: 250px;
+    height: 20px;
+    padding: 10px 5px;
+}
+.search_icon{
+    background-color: #fefefe;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Cambiar el color de una imagen SVG
+.orange{
+    filter: invert(58%) sepia(85%) saturate(834%) hue-rotate(360deg) brightness(102%) contrast(104%);
+}*/
+
+.main{
+    padding: 10px 80px;
+}
+.news_big{
+    width: 60%;
+    height: 417px;
+    background-color: grey;
+}
+.news_medium{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+}
+.news_small{
+    width: 48.5%;
+    height: 200px;
+    background-color: grey;
+}
+.news_v_small{
+    width: 31.5%;
+    height: 200px;
+    background-color: grey;
+}
+
